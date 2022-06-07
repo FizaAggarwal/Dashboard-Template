@@ -1,9 +1,280 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-  <head>
+<head>
+    <script src="https://kit.fontawesome.com/f91e9ee5f5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css" />
     <title>Dashboard</title>
-  </head>
-  <body>
-  </body>
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+            <h2>FIFO</h2><br />
+            <h5 class="heading">MAIN</h5>
+            <div class="flex_menu">
+                <div class="menu_item">
+                    <i id="icon" class="fas fa-house"></i>
+                    <span class="item_name">Dashboard</span>
+                </div>
+                <div class="menu_item">
+                    <i id="icon" class="fas fa-calendar"></i>
+                    <span class="item_name">Calendar</span>
+                </div>
+                <div class="menu_item">
+                    <i id="icon" class="fas fa-envelope"></i>
+                    <span class="item_name">Email</span>
+                </div>
+            </div>
+            <h5 class="heading">COMPONENTS</h5>
+            <div class="flex_menu">
+                <div class="menu_item">
+                    <i id="icon" class="fas fa-shapes"></i>
+                    <span class="item_name">UI Elements</span>
+                </div>
+                <div class="menu_item">
+                    <i id="icon" class="fas fa-wpforms"></i>
+                    <span class="item_name">Forms</span>
+                </div>
+                <div class="menu_item">
+                    <i id="icon" class="fas fa-chart-pie"></i>
+                    <span class="item_name">Charts</span>
+                </div>
+                <div class="menu_item">
+                    <i id="icon" class="fas fa-table"></i>
+                    <span class="item_name">Tables</span>
+                </div>
+                <div class="menu_item">
+                    <i id="icon" class="fas fa-icons"></i>
+                    <span class="item_name">Icons</span>
+                </div>
+                <div class="menu_item">
+                    <i id="icon" class="fas fa-location-dot"></i>
+                    <span class="item_name">Maps</span>
+                </div>
+                <div class="menu_item">
+                    <i id="icon" class="fas fa-receipt"></i>
+                    <span class="item_name">Layouts</span>
+                </div>
+                <div class="menu_item">
+                    <i id="icon" class="fas fa-box-archive"></i>
+                    <span class="item_name">Authentication</span>
+                </div>
+                <div class="menu_item">
+                    <i id="icon" class="fas fa-file"></i>
+                    <span class="item_name">Extra Pages</span>
+                </div>
+                <div class="menu_item">
+                    <i id="icon" class="fas fa-envelope-open-text"></i>
+                    <span class="item_name">Email Templates</span>
+                </div>
+                <div class="menu_item">
+                    <i id="icon" class="fas fa-ellipsis"></i>
+                    <span class="item_name">Multi Level</span>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right_nav">
+                <div class="nav_left">
+                    <div> <i id="nav_icons" class="fa-solid fa-bars"></i></div>
+                    <div><span class="nav_create">Create<i id="nav_icons" class="fa-solid fa-caret-down" style="margin-left:10px;margin-right:5px;"></i></span></div>
+                </div>
+                <div class="nav_right">
+                    <div class="nav_search"><span style="padding-left:5px;">Search...</span><i id="nav_search" class="fa-solid fa-magnifying-glass"></i></div>
+                    <div class="child"><img class="nav_flag" src="flag.png" /><span class="country">English</span></div>
+                    <div class="icon_child" style="margin-left:0px"><i class="fa-solid fa-caret-down"></i></div>
+                    <div class="icon_child"><i class="fa-solid fa-maximize"></i></div>
+                    <div class="icon_child"><i class="fa-solid fa-bell"></i><span class="badge">3</span></div>
+                    <div class="icon_child"><img class="profile_nav" src="female_avatar.png" /></div>
+                    <div class="icon_child"><i class="fa-solid fa-gear" style="margin-right:20px"></i></div>
+                </div>
+            </div>
+            <div class="right_main">
+                <div class="right_main_up">
+                    <div class="card">
+                        <div class="card_up">
+                            <img class="card_image" src="order.jpg" />
+                            <span class="title">
+                                <span class="title_name">ORDERS</span><br />
+                                <b>1,685</b><i id="arrow-up" class="fa-solid fa-arrow-up"></i>
+                            </span>
+                            <span id="green_flag" class="flag"><p class="flag_text">+12%</p></span>
+                        </div>
+                        <div class="card_down">
+                            <span class="text_down">Since last month</span>
+                            <span class="arrow_right"><i class="fa-solid fa-arrow-right-long"></i></span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_up">
+                            <img class="card_image" src="revenue.png" />
+                            <span class="title">
+                                <span class="title_name">REVENUE</span><br />
+                                <b>52,368</b><i id="arrow_down" class="fa-solid fa-arrow-down"></i>
+                            </span>
+                            <span id="red_flag" class="flag"><p class="flag_text">-28%</p></span>
+                        </div>
+                        <div class="card_down">
+                            <span class="text_down">Since last month</span>
+                            <span class="arrow_right"><i class="fa-solid fa-arrow-right-long"></i></span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_up">
+                            <img class="card_image" src="price.png" />
+                            <span class="title">
+                                <span class="title_name">AVERAGE PRICE</span><br />
+                                <b>15.8</b><i id="arrow-up-blue" class="fa-solid fa-arrow-up"></i>
+                            </span>
+                            <span id="blue_flag" class="flag"><p class="flag_text">00%</p></span>
+                        </div>
+                        <div class="card_down">
+                            <span class="text_down">Since last month</span>
+                            <span class="arrow_right"><i class="fa-solid fa-arrow-right-long"></i></span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_up">
+                            <img class="card_image" src="products.png" />
+                            <span class="title">
+                                <span class="title_name">PRODUCTS SOLD</span><br />
+                                <b>2436</b><i id="arrow-up-yellow" class="fa-solid fa-arrow-up"></i>
+                            </span>
+                            <span id="yellow_flag" class="flag"><p class="flag_text">+84%</p></span>
+                        </div>
+                        <div class="card_down">
+                            <span class="text_down">Since last month</span>
+                            <span class="arrow_right"><i class="fa-solid fa-arrow-right-long"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="right_main_down">
+                    <div class="transaction_container">
+                        <h4 class="head">Latest Transactions</h4>
+                        <table class="transactions" style="width: 95%; border-collapse: collapse;">
+                            <tr>
+                                <th>(#)Id</th>
+                                <th>Name</th>
+                                <th>Date</th>
+                                <th>Amount</th>
+                                <th>Status</th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td>#14256</td>
+                                <td><div class="photo"><img class="profile" src="female_avatar.png" /> <div class="name">Philip Smeed</div></div></td>
+                                <td>15/1/2018</td>
+                                <td>$94</td>
+                                <td><span class="delivered">Delivered</span></td>
+                                <td><span class="edit">Edit</span></td>
+                            </tr>
+                            <tr>
+                                <td>#14257</td>
+                                <td><div class="photo"><img class="profile" src="male_avatar.png" /> <div class="name">Brent Shipley</div></div></td>
+                                <td>16/1/2019</td>
+                                <td>$112</td>
+                                <td><span class="pending">Pending</span></td>
+                                <td><span class="edit">Edit</span></td>
+                            </tr>
+                            <tr>
+                                <td>#14258</td>
+                                <td><div class="photo"><img class="profile" src="male_avatar.png" /> <div class="name">Robert Sitton</div></div></td>
+                                <td>17/1/2019</td>
+                                <td>$116</td>
+                                <td><span class="delivered">Delivered</span></td>
+                                <td><span class="edit">Edit</span></td>
+                            </tr>
+                            <tr>
+                                <td>#14259</td>
+                                <td><div class="photo"><img class="profile" src="male_avatar.png" /> <div class="name">Alberto Jackson</div></div></td>
+                                <td>18/1/2019</td>
+                                <td>$109</td>
+                                <td><span class="cancel">Cancel</span></td>
+                                <td><span class="edit">Edit</span></td>
+                            </tr>
+                            <tr>
+                                <td>#14260</td>
+                                <td><div class="photo"><img class="profile" src="male_avatar.png" /> <div class="name">David Sanchez</div></div></td>
+                                <td>19/1/2019</td>
+                                <td>$120</td>
+                                <td><span class="delivered">Delivered</span></td>
+                                <td><span class="edit">Edit</span></td>
+                            </tr>
+                            <tr>
+                                <td>#14261</td>
+                                <td><div class="photo"><img class="profile" src="female_avatar.png" /> <div class="name">Philip Smeed</div></div></td>
+                                <td>15/1/2018</td>
+                                <td>$94</td>
+                                <td><span class="pending">Pending</span></td>
+                                <td><span class="edit">Edit</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="chat_container">
+                        <h4 class="head">Chat</h4>
+                        <div class="chat_left_first">
+                            <div class="chat_profile_left">
+                                <img class="profile" src="female_avatar.png" style="margin-right:20px" />
+                                <div class="caption">10:00</div>
+                            </div>
+                            <span class="container">
+                                <b class="chat_name">John Deo</b><br />
+                                <span class="chat_text">Hello!</span>
+                            </span>
+                        </div>
+                        <div class="chat_right">
+                            <span class="container_right">
+                                <b class="chat_name_right">Smith</b><br />
+                                <span class="chat_text_right">Hi,How are you??</span>
+                            </span>
+                            <div class="chat_profile">
+                                <img class="profile" src="female_avatar.png" style="margin-right:20px" />
+                                <div class="caption">10:00</div>
+                            </div>
+                        </div>
+                        <div class="chat_left">
+                            <div class="chat_profile_left">
+                                <img class="profile" src="female_avatar.png" style="margin-right:20px" />
+                                <div class="caption">10:00</div>
+                            </div>
+                            <span class="container">
+                                <b class="chat_name">John Deo</b><br />
+                                <span class="chat_text">Yeah, good!</span>
+                            </span>
+                        </div>
+                        <div class="chat_right">
+                            <span class="container_right">
+                                <b class="chat_name_right">Smith</b><br />
+                                <span class="chat_text_right">Wow, That's great!'</span>
+                            </span>
+                            <div class="chat_profile">
+                                <img class="profile" src="female_avatar.png" style="margin-right:20px" />
+                                <div class="caption">10:00</div>
+                            </div>
+                        </div>
+                        <div class="chat_right">
+                            <span class="container_right">
+                                <b class="chat_name_right">Smith</b><br />
+                                <span class="chat_text_right">What about our meeting?</span>
+                            </span>
+                            <div class="chat_profile">
+                                <img class="profile" src="female_avatar.png" style="margin-right:20px" />
+                                <div class="caption">10:00</div>
+                            </div>
+                        </div>
+
+                        <div class="chat_bottom">
+                            <div class="enter_text">Enter Your Text</div>
+                            <div class="send">Send</div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="right_bottom"></div>
+        </div>
+    </div>
+</body>
 </html>
 
