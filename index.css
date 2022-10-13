@@ -152,13 +152,6 @@ h2 {
     justify-content: space-between;
 }
 
-.right_main_down {
-    background-color: #212735;
-    height: 100%;
-    width: 100%;
-    display: flex;
-}
-
 .card {
     height: 100%;
     background-color: #626ED4;
@@ -172,6 +165,13 @@ h2 {
     .card:not(:last-child) {
         margin-right: 30px;
     }
+
+.right_main_down {
+    background-color: #212735;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
 
 .transaction_container {
     width: 68%;
