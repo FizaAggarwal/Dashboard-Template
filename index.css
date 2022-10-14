@@ -138,22 +138,16 @@ h2 {
 
 .right_main {
     display: flex;
-    height: 100%;
-    width: 100%;
     flex-direction: column;
     background-color: #212735;
 }
 
 .right_main_up {
     margin: 10px 20px;
-    background-color: #212735;
-    height: 30%;
     display: flex;
-    justify-content: space-between;
 }
 
 .card {
-    height: 100%;
     background-color: #626ED4;
     width: 50%;
     margin-top: 10px;
@@ -165,6 +159,92 @@ h2 {
     .card:not(:last-child) {
         margin-right: 30px;
     }
+
+.card_up {
+    display: flex;
+}
+
+.card_image {
+    height: 50px;
+    margin: 10px;
+}
+
+.title {
+    margin: 10px;
+    color: #E9ECEF;
+}
+
+.title_name {
+    font-size: 12px;
+}
+
+#arrow-up {
+    color: #2AA39A;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+#green_flag {
+    background-color: #2AA39A;
+}
+
+.flag {
+    margin-left: auto;
+    height: 50px;
+    width: 70px;
+    clip-path: polygon(0 39%, 100% 38%, 100% 100%, 0 100%, 18% 67%);
+    color: white;
+}
+
+.flag_text {
+    font-size: 15px;
+    margin: 25px;
+}
+
+.card_down {
+    color: #E9ECEF;
+    display: flex;
+}
+
+.text_down {
+    font-size: 15px;
+    margin:0px 0px 30px 10px;
+}
+
+.arrow_right {
+    margin:0px 20px 0px auto;
+    font-size: 20px;
+}
+
+#arrow_down {
+    color: #EC4561;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+#red_flag {
+    background-color: #EC4561;
+}
+
+#arrow-up-blue {
+    color: #38A5F8;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+#blue_flag {
+    background-color: #38A5F8;
+}
+
+#arrow-up-yellow {
+    color: #F8B425;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+#yellow_flag {
+    background-color: #F8B425;
+}
 
 .right_main_down {
     background-color: #212735;
@@ -268,101 +348,10 @@ h2 {
     width: 20%;
 }
 
-.card_up {
-    display: flex;
-}
-
-.card_image {
-    height: 50px;
-    width: auto;
-    margin: 10px;
-}
-
-.title {
-    display: inline-block;
-    margin: 10px;
-    color: #E9ECEF;
-}
-
-.title_name {
-    font-size: 12px;
-}
-
 b {
     font-size: 25px;
     margin-top: 100px;
     color: white;
-}
-
-#arrow-up {
-    color: #2AA39A;
-    font-size: 25px;
-    margin-left: 10px;
-}
-
-.card_down {
-    color: #E9ECEF;
-    display: flex;
-}
-
-.text_down {
-    font-size: 15px;
-    margin-bottom: 30px;
-    margin-left: 10px;
-}
-
-.arrow_right {
-    color: #E9ECEF;
-    margin-left: auto;
-    margin-right: 20px;
-    font-size: 20px;
-}
-
-.flag {
-    margin-left: auto;
-    height: 50px;
-    width: 70px;
-    clip-path: polygon(0 39%, 100% 38%, 100% 100%, 0 100%, 18% 67%);
-    color: white;
-}
-
-#green_flag {
-    background-color: #2AA39A;
-}
-
-.flag_text {
-    font-size: 15px;
-    margin: 25px;
-}
-
-#arrow_down {
-    color: #EC4561;
-    font-size: 25px;
-    margin-left: 10px;
-}
-
-#red_flag {
-    background-color: #EC4561;
-}
-
-#blue_flag {
-    background-color: #38A5F8;
-}
-
-#arrow-up-blue {
-    color: #38A5F8;
-    font-size: 25px;
-    margin-left: 10px;
-}
-
-#arrow-up-yellow {
-    color: #F8B425;
-    font-size: 25px;
-    margin-left: 10px;
-}
-
-#yellow_flag {
-    background-color: #F8B425;
 }
 
 .chat_left {
