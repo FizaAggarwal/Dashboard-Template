@@ -248,8 +248,6 @@ h2 {
 
 .right_main_down {
     background-color: #212735;
-    height: 100%;
-    width: 100%;
     display: flex;
 }
 
@@ -257,20 +255,6 @@ h2 {
     width: 68%;
     background-color: #2E3648;
     margin: 2%;
-}
-
-.chat_container {
-    background-color: #2E3648;
-    width: 28%;
-    margin: 2%;
-    display: flex;
-    flex-direction: column;
-}
-
-.right_bottom {
-    background-color: #36394C;
-    height: 40px;
-    width: 100%;
 }
 
 .head {
@@ -282,7 +266,13 @@ h2 {
     color: #E9ECEF;
     margin: 10px;
     font-size: 15px;
+    border-collapse: collapse;
+    width: 95%;
 }
+
+    .transactions tr {
+    border-bottom: 1px solid #E9ECEF;
+    }
 
     .transactions th {
         text-align: left;
@@ -290,14 +280,12 @@ h2 {
     }
 
     .transactions td {
-        /*text-align:center;*/
         padding: 12px;
     }
 
-    .transactions tr {
-        border-bottom: 1px solid #E9ECEF;
-    }
-
+.photo {
+    display: inline-block;
+}
 
 .profile {
     border-radius: 50%;
@@ -307,12 +295,7 @@ h2 {
 
 .name {
     float: right;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-.photo {
-    display: inline-block;
+    margin:10px 0px 0px 10px;
 }
 
 .delivered {
@@ -340,6 +323,20 @@ h2 {
     padding: 5px;
     border-radius: 5px;
     font-size: 10px;
+}
+
+.chat_container {
+    background-color: #2E3648;
+    width: 28%;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right_bottom {
+    background-color: #36394C;
+    height: 40px;
+    width: 100%;
 }
 
 .icons {
@@ -493,6 +490,7 @@ b {
     .transaction_container{
         flex-grow:1;
     }
+
 
     .chat_container{
         flex-grow:1;
