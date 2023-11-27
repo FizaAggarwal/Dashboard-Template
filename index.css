@@ -50,6 +50,7 @@ h2 {
 .right {
     display: flex;
     flex-direction: column;
+    background-color: #36394C;
 }
 
 .right_nav {
