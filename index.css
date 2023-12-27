@@ -49,7 +49,7 @@ h2 {
 .right {
   display: flex;
   flex-direction: column;
-  background-color: #36394c;
+  justify-content: space-between;
 }
 
 .right_nav {
@@ -140,10 +140,11 @@ h2 {
   display: flex;
   flex-direction: column;
   background-color: #212735;
+  flex: 1;
 }
 
 .right_main_up {
-  margin: 10px 20px;
+  margin: 32px 20px;
   display: flex;
 }
 
@@ -334,7 +335,7 @@ h2 {
 
 .right_bottom {
   background-color: #36394c;
-  height: 40px;
+  height: 75px;
   width: 100%;
 }
 
